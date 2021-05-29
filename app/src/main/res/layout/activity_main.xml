@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/screenBackground"
+
     tools:context=".MainActivity">
 
 
@@ -14,13 +16,19 @@
         android:gravity="center_vertical"
         android:text="@string/hello_android_studio"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="italic"
         android:textSize="41sp" />
 
+
     <Button
+        style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
         android:text="@string/button"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
     <Switch
         android:id="@+id/switch1"
@@ -28,6 +36,7 @@
         android:layout_height="wrap_content"
         android:text="@string/switch1"
         android:textSize="18sp"
+        android:textStyle="italic"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <EditText
@@ -38,6 +47,7 @@
         android:ems="10"
         android:inputType="number"
         android:text="@string/number"
+        android:textStyle="italic"
         tools:ignore="LabelFor" />
 
     <CheckBox
@@ -45,6 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/checkbox"
+        android:textStyle="italic"
         android:textSize="18sp"/>
 
     <ToggleButton
