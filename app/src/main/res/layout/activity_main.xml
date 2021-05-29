@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/teal_200"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -15,10 +15,10 @@
         android:gravity="center_vertical"
         android:text="@string/hello_android_studio"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/teal_700"
-        android:textSize="41sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="28sp"
         android:textStyle="italic" />
-
 
     <Button
         style="@style/Widget.AppCompat.Button.Small"
@@ -70,3 +70,4 @@
         android:layout_height="match_parent" />
 
 </LinearLayout>
+
