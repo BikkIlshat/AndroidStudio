@@ -12,6 +12,6 @@
     <string name="phone">phone</string>
     <string name="number1">number1</string>
     <string name="textpassword">textPassword</string>
-    <string name="extemailaddress">extEmailAddress</string>
+    <string name="extemailaddress">textEmailAddress</string>
     <string name="textwebemailaddress">textWebEmailAddress</string>
 </resources>
