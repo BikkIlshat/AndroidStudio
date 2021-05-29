@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello Geekbrains</string>
+    <string name="hello_android_studio">Hello Android Studio!</string>
+    <string name="button">BUTTON</string>
+    <string name="switch1">Switch</string>
+    <string name="number">Number</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="togglebutton">ToggleButton</string>
+</resources>
